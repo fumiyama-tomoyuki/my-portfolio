@@ -1,0 +1,244 @@
+@charset "utf-8";
+
+* {
+  box-sizing: border-box;
+  /*outline: 1px solid red;*/
+}
+
+html {
+  font-size: 62.5%;
+}
+
+html.big {
+  font-size: 75%;
+}
+
+html.small {
+  font-size: 54.6875%;
+}
+
+body {
+  margin: 0;
+  font-family: 'Noto Serif JP', "游明朝", YuMincho, "Hiragino Mincho ProN W3", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", "Clooney Caption", serif;
+  background-color: #F1FDFF;
+}
+
+figure {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+img {
+  vertical-align: bottom;
+}
+
+p,
+a {
+  font-size: 1.8rem;
+}
+
+.sp {
+  display: none;
+}
+
+@media(min-width: 768px) {
+  a[href^="tel:"] {
+    pointer-events: none;
+  }
+}
+
+/*===================
+*　繰り返しよく使うモジュール
+====================*/
+
+.flex-between {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}
+
+.flex-around {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+}
+
+.flex-center {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+.flex-end {
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.mt-s {
+  margin-top: 2.4rem !important;
+}
+
+.mt-m {
+  margin-top: 4.8rem !important;
+}
+
+.mt-l {
+  margin-top: 6.4rem !important;
+}
+
+.pd-sp {
+  padding-left: 1.6rem;
+  padding-right: 1.6rem;
+}
+
+.font-s {
+  font-size: 1.4rem;
+}
+
+.font-m {
+  font-size: 1.8rem;
+}
+
+.font-l {
+  font-size: 2.4rem;
+}
+
+.font-ll {
+  font-size: 4.8rem;
+}
+
+.my-bold {
+  font-weight: 700;
+}
+
+.blc-center {
+  margin: 0 auto;
+}
+
+.txt-center {
+  text-align: center;
+}
+
+.circle {
+  border-radius: 50%;
+}
+
+.ob-fit {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.h-100 {
+  height: 100%;
+}
+
+@media screen and (max-width: 1023px) {
+  html {
+    font-size: 54.6875%;
+  }
+
+  .-col {
+    flex-direction: column;
+  }
+
+  .-row {
+    flex-direction: row;
+  }
+
+  .-col-re {
+    flex-direction: column-reverse;
+  }
+
+  .-row-re {
+    flex-direction: row-reverse;
+  }
+
+  .sp-mt-s {
+    margin-top: 2.4rem !important;
+  }
+
+  .sp-mt-m {
+    margin-top: 4.8rem !important;
+  }
+
+  .sp-mt-l {
+    margin-top: 6.4rem !important;
+  }
+
+  .sp {
+    display: block;
+  }
+
+  .no-pd {
+    padding: 0;
+  }
+
+  .no-mt {
+    margin-top: 0;
+  }
+
+  .no-mb {
+    margin-bottom: 0;
+  }
+}
+
+
+/*===================
+*　後から変更する可能性の高いモジュール
+====================*/
+
+.shadow {
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
+}
+
+.color-azel {
+  color: #4DC7E1;
+}
+
+.color-neon {
+  color: #4D3920;
+}
+
+.container {
+  width: 75%;
+  margin: auto;
+}
+
+.w-main {
+  width: 100%;
+  margin: auto;
+}
+
+.w-secondary {
+  width: 80%;
+  min-width: 900px;
+  max-width: 1320px;
+  margin: auto;
+}
+
+
+@media screen and (max-width: 1023px) {
+  .w-secondary {
+    width: 100%;
+    min-width: auto;
+  }
+}
+
+/*===================
+*ここからメイン
+====================*/
+
+
+
+@media screen and (max-width: 1023px) {}
+
+
+
+@media screen and (max-width: 480px) {}
